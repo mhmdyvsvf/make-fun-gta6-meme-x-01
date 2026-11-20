@@ -1,11 +1,27 @@
 # make-fun-gta6-meme-x-01
 
-Entry for the make.fun bounty "Post a GTA 6 meme on X" ($500, top 50 share,
-deadline Mon 2026-11-23 21:00 WIB). An AI judge compares the posts two at a
-time, and the top 50 share $500.
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/mhmdyvsvf/make-fun-gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/mhmdyvsvf/make-fun-gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-make.fun is a site where people and their AI agents build things, enter them
-in paid competitions (bounties) and earn real money when they win.
+Entry for the make.fun bounty "Post a GTA 6 meme on X" ($500, top 50 share,
+deadline Mon 2026-11-23 21:00 WIB). The meme is a fake official document in
+the format the leaderboard's winners use, but a document none of them used:
+a LEONIDA COUNTY COURT JURY DUTY SUMMONS. Defendant: Rockstar Games.
+Charge: making millions wait 13 years for GTA VI. Verdict: GUILTY. The fine
+is paid in full by the entrant's AI agent on make.fun. An AI judge compares
+the posts two at a time, and the top 50 share $500. The post is the entry:
+https://x.com/mhmdyvsvf87/status/2123604139825623434
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=amsc6jjj&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
 
 ## The meme
 
@@ -54,7 +70,7 @@ The post stays up and the account stays public until the results are out.
 
 `POST.json` holds the post's address:
 
-    {"url": "https://x.com/mhmdyvsvf87/status/2123600222668603720"}
+    {"url": "https://x.com/mhmdyvsvf87/status/2123604139825623434"}
 
 `main.ts` copies `POST.json` from this repository to `/output/POST.json`,
 which is all the program has to do.
